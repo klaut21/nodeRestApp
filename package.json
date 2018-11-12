@@ -1,21 +1,26 @@
 {
-    "name": "cupexpressapp",
+    "name": "noderestapp",
     "version": "1.0.0",
-    "description": "Cup Express App using the nodejs express framework",
-    "main": "cup express html webapp",
+    "description": "Minimal nodejs restapp using the nodejs express framework",
+    "main": "sample rest webapp",
     "scripts": {
-        "start": "server.js"
+      "start": "server.js"
     },
     "repository": {
-        "type": "git",
-        "url": "https://github.com/xpcmkuegeler/CupExpressApp.git"
+      "type": "git",
+      "url": "git+https://github.com/xpcmkuegeler/noderest.git"
     },
     "author": "mkuegeler",
     "license": "(MIT OR Apache-2.0)",
     "dependencies": {
-        "express": "latest",
-        "body-parser": "^1.18.3",
-        "fs": "latest",
-        "request": "latest"
-    }
-}
+      "express": "^4.16.3",
+      "body-parser": "^1.8.1",
+      "fs": "latest",
+      "node-json2html": "latest"
+    },
+    "bugs": {
+      "url": "https://github.com/xpcmkuegeler/nodeRestApp/issues"
+    },
+    "homepage": "https://github.com/xpcmkuegeler/nodeRestApp#readme"
+  }
+  
