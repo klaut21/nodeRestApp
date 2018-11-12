@@ -1,0 +1,15 @@
+# REST API Sample Application
+# NodeJS
+# call with app.ps1
+
+version: '2'
+services:
+ web:
+  build: .
+  volumes:
+    - "cup_data:/app"
+  ports:
+    - "3000:3000"
+volumes:
+  cup_data:
+     driver: local

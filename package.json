@@ -1,0 +1,21 @@
+{
+    "name": "cupexpressapp",
+    "version": "1.0.0",
+    "description": "Cup Express App using the nodejs express framework",
+    "main": "cup express html webapp",
+    "scripts": {
+        "start": "server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xpcmkuegeler/CupExpressApp.git"
+    },
+    "author": "mkuegeler",
+    "license": "(MIT OR Apache-2.0)",
+    "dependencies": {
+        "express": "latest",
+        "body-parser": "^1.18.3",
+        "fs": "latest",
+        "request": "latest"
+    }
+}
